@@ -1,6 +1,7 @@
 import React from 'react'
 import "./LandingPage.css"
 import Header from '../components/Header'
+import Body from '../components/Body'
 
 function LandingPage() {
   return (
@@ -8,7 +9,7 @@ function LandingPage() {
     
     <div className="landingPage-container">
         <Header />
-   <img src="./public/images/2lvto440juw21.jpg" class="bg"></img>
+        <Body />
     </div>
   )
 }

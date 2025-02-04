@@ -1,6 +1,34 @@
 body {
 
-  min-height: 100vh;
   background: linear-gradient(#fef6e9, #d7ccca);
   margin: 0;
+  box-sizing: border-box;
+  
 }
+
+
+@font-face {
+  font-family: "NomeFonte";
+  src: url(./public/fonts/KleeOne-Regular.ttf);
+}
+
+
+
+/* 
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+@font-face {
+  font-family: "NomeFonte";
+  src: url(./public/fonts/KleeOne-Regular.ttf);
+}
+
+#root, body, html{
+  height: 100vh;
+} */

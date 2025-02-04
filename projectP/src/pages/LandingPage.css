@@ -1,16 +1,8 @@
 .landingPage-container{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
 
-img.bg {
-    min-height: 100%;
-    min-width: 1024px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
+
