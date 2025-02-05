@@ -1,0 +1,38 @@
+.container-produto{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 250px;
+    border: 7px solid #ffb649;
+    border-radius: 10px;
+    margin-right: 20px;
+
+    font-family: "NomeFonte";
+    font-size: 25px;
+    box-shadow: 0 15px 10px rgb(202, 176, 156);
+    overflow: hidden;
+    transition: 0.8s;
+}
+.container-produto:hover{
+    transition: 1s;
+    margin-right: 40px;
+    box-shadow: 0 35px 17px rgb(225, 200, 180);
+    margin-top: 100px!important;
+    height: 500px;
+    width: 380px;
+
+}
+
+.promo{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(145, 160, 47);
+}
+
+.imgAba{
+    border-radius: 30px;
+    height: 40%;
+}
