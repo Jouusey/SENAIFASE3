@@ -1,0 +1,24 @@
+/* body {
+
+  background: linear-gradient(#fef6e9, #d7ccca);
+  margin: 0;
+  box-sizing: border-box;
+  
+} */
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  
+  @font-face {
+    font-family: "Fonte";
+    src: url(./public/fonts/ProtestRevolution-Regular.ttf);
+  }
+  
+  #root, body, html{
+    height: 100vh;
+  } 

@@ -1,0 +1,35 @@
+.header-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 90%;
+    margin-top: 20px;
+    background: none;
+    font-family: "Fonte";
+    border-radius: 15px;
+    
+}
+
+.title-sign{  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 75px;
+    color: #f8e4cb;
+    height: 50%;
+    width: 40%;
+    text-shadow: 0px 15px 15px rgb(50, 29, 22);
+}
+.warning-sign{  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f8e4cb;
+    height: 40%;
+    width: 160%;}
+

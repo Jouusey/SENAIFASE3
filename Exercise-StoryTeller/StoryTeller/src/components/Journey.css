@@ -1,0 +1,94 @@
+.journey-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    width: 90%;
+    margin-top: 20px;
+    background: url(./public/Frame-1.png);
+    background-size: 100%;
+    font-family: "Fonte";
+    border-radius: 15px;
+    box-shadow: 0px 15px 35px black;
+    
+}
+
+.conteudo-container{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    
+    font-size: 150px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+
+.aventura-conteiner{
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: "Fonte";
+    margin-bottom: 50px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.lblStoryAdvance{
+
+    font-family: "Fonte";
+    color: antiquewhite;
+    font-size: 26px;
+    border: none;
+    background: none;
+}
+
+.btnStoryAdvance{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fonte";
+    background-color: beige;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    width: 80px;
+    font-size: 26px;
+    transition: 1s;
+}
+
+.btnStoryAdvance:active{
+
+    
+    height: 45px;
+    width: 85px;
+
+
+}
+
+.btnFinal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fonte";
+    background-color: rgb(0, 0, 0);
+    border: none;
+    margin-top: 10px;
+    font-size: 0px;
+    height: 0px;
+    width: 0px;
+    transition: 2s;
+}
+
+.final-container{
+    text-align: center;
+    font-size: 30px;
+}
