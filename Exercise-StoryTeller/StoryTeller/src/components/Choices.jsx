@@ -12,7 +12,7 @@ function Choices() {
 
               
                 <div className="Choice">
-                    <button className='btnchoice'> <img className='imgChoices' src="./public/321747b4c999e8c0e800baba885b5f97.jpg"/></button>
+                    <button className='btnchoice'> <img className='imgChoices' src="./public/321747b4c999e8c0e800baba885b5f97.png"/></button>
                     <label className='lblChoices' htmlFor="">Tudo começou quando...</label>
                 </div>
                

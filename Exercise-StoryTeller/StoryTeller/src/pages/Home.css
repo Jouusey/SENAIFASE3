@@ -1,7 +1,7 @@
 .home-container{
-    display: flex;/* 
-    background: url(./public/2d378eac82bcdb7c4b0b12b576f0edab.jpg); */
-    background-color: rgb(138, 111, 111);
+    display: flex;
+    background: url(./public/2d378eac82bcdb7c4b0b12b576f0edab.png); 
+    
     
     align-items: center;
     flex-direction: column;
