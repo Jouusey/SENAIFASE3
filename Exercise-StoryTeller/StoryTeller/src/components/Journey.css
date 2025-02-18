@@ -7,7 +7,7 @@
     height: 35%;
     width: 90%;
     margin-top: 20px;
-    background: url(./public/Frame-1.png);
+    background: url(/public/Frame-1.png);
     background-size: 100%;
     font-family: "Fonte";
     border-radius: 15px;
