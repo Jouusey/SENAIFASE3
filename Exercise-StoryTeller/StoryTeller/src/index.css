@@ -16,7 +16,7 @@
   
   @font-face {
     font-family: "Fonte";
-    src: url(./public/fonts/ProtestRevolution-Regular.ttf);
+    src: url(/public/fonts/ProtestRevolution-Regular.ttf);
   }
   
   #root, body, html{

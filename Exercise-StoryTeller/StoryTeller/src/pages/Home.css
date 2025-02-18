@@ -1,6 +1,6 @@
 .home-container{
     display: flex;
-    background: url(./public/2d378eac82bcdb7c4b0b12b576f0edab.png); 
+    background: url(/public/2d378eac82bcdb7c4b0b12b576f0edab.png); 
     
     
     align-items: center;
