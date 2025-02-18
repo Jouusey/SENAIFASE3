@@ -2,7 +2,7 @@ async function connect(){
 
     
     if(global.connect)
-    return global.RTCPeerConnection.connect()
+        return global.RTCPeerConnection.connect()
 
     const  { Pool } = require("pg")
     const  pool = new pool({
@@ -15,6 +15,7 @@ async function connect(){
     console.log(res.rows[0])
     cliente.release()
 
+    global.connect = pool
     return pool.connect()
 }  
 
