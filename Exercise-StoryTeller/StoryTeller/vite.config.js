@@ -11,7 +11,7 @@ export default defineConfig({
         name: 'StoryTeller',
         short_name: 'ST',
         description: 'Desbrave uma nova história!',
-        theme_color: '***#ffffff',
+        theme_color: '#ffffff',
         icons: [
           {
             src: 'node-192.png',
