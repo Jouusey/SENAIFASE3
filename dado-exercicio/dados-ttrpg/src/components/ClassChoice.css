@@ -1,0 +1,20 @@
+.classChoice-container{
+    display: flex;
+    height: 25vh;
+    width: 100%;
+    background-color: tomato;
+    justify-content: center;
+    align-items: end;
+}
+.btnClassChoice{
+
+    cursor: pointer;
+    height: 35px;
+    width: 120px;
+    font-family: "Fonte";
+    background-color: aliceblue;
+    font-size: 19px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+}
