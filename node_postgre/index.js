@@ -1,17 +1,24 @@
 require("dotenv").config()
 
 const db = require("./db")
+
 const port = process.env.PORT
+
 const express = require("express")
 const app = express()
 
-app.get("/", (req,res)=>{
+//!pegar dados
+app.get("/", (req,res)=>{})  
 
-    res.json({
-        message:"Funcionando!"
-    }) 
+//!criar rota
+app.get("/usuario", (req,res)=>{
+
+    const usuario = await db.selectCustomers()
+    res.json(usuario) 
+   
 })  
 
 app.listen(port)
 
-console.log("Rodando.")
+
+console.log("Backend Rodando.")
