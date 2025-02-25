@@ -1,0 +1,20 @@
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(221, 215, 212);
+
+    
+  }
+  
+  
+  #root, body, html{
+    height: 96vh;
+  } 
+
+  @font-face {
+    font-family: "fonte";
+    src: url(public/HappyMonkey-Regular.ttf);
+  }
