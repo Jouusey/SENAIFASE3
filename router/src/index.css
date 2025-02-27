@@ -1,0 +1,25 @@
+:root{
+    
+--alabaster: #e8ebe4ff;
+--french-gray: #d2d5ddff;
+--french-gray-2: #b8bacfff;
+--cool-gray: #999ac6ff;
+--battleship-gray: #798071ff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  #root, body, html{
+    
+    background-color: var(--alabaster);
+    min-height: 100vh;
+  } 
+  
+  

@@ -1,0 +1,28 @@
+.container-card{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5px;
+    width: 300px;
+    
+    height: 120px;
+    background-color: var(--french-gray-2);
+    color: white;
+    border-radius: 10px;
+    transition: 1s;
+
+    border-color: var(--alabaster);
+    border-style: solid;
+    border-width: 3;
+}
+.container-card:hover{
+
+    margin: 5px;
+    height: 160px;
+    width: 310px;
+    font-size: 16.5px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
