@@ -5,7 +5,6 @@ import Exercicio1 from './pages/Exercicio1'
 function App() {
   
   return (
-   
     <Exercicio1 />
   )
 }
