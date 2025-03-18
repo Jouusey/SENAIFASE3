@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Tempera.css'
 
 function Tempera() {
 
@@ -48,20 +49,22 @@ function Tempera() {
   }
 
   return (
-    <div>
+    
+    <div className="tempera-container">
+    
 
-      <select
+      <select  className='SelectTemp'
      onChange={(event) => setTempUmInput(event.target.value)}  name="hello" id="">
         
         <option value=''>Selecione</option>
-        <option value='1'>Celcius</option>
+        <option value='1'>Celsius</option>
         <option value='2' >Fahrenheit</option>
         <option value='3'>Kelvin</option>
 
       </select>
-      <label htmlFor="">Para:</label>
+      <label className='lblTemp' htmlFor="">Para:</label>
 
-      <select
+      <select className='SelectTemp'
      onChange={(event) => setTempDoisInput(event.target.value)}  name="hello" id="">
        
        <option value=''>Selecione</option>
@@ -71,14 +74,14 @@ function Tempera() {
 
       </select>
 
-      <label htmlFor="">Temperatura atual:</label>
-        <input value={userInput} type="number" name="" id=""
+      <label className='lblTemp' htmlFor="">Temperatura atual:</label>
+        <input className='inptTemp' value={userInput} type="number" name="" id=""
         onChange={(event) => setUserInput(event.target.value)} />
-        <button onClick={calcular} >Calcular</button>
+        <button className='BtnTemp' onClick={calcular} >Calcular</button>
 
         {resultado}
 
-    </div>
+        </div>
   )
 }
 

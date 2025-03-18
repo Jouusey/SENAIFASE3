@@ -1,0 +1,45 @@
+.tempera-container{ 
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.SelectTemp{
+    background-color: rgb(255, 255, 255);
+    font-family: "fonte";
+    transition: 1s;
+}
+.SelectTemp:hover{
+    transition: 1s;
+    font-size: 25px;
+}
+
+.inptTemp{
+    font-family: "fonte";
+    background: none;
+    transition: 1s;}
+
+    .inptTemp:hover{
+        transition: 1s;
+        font-size: 22px;
+    }
+
+.BtnTemp{
+    font-family: "fonte";
+    transition: 1s;}
+
+.BtnTemp:hover{
+    font-size: 22px;
+    transition: 1s;
+}
+
+.lblTemp{
+    font-family: "fonte";
+    margin-top: 30px;
+    margin-left: 20px;
+margin-right: 10px;}
