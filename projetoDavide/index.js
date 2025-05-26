@@ -11,11 +11,11 @@ app.use(connect)
 
 
 
-/* 
+
 app.get('/clientes', (req, res) =>{
     req.params;
     res.json(req.params)
-}) */
+}) 
 
 
 console.log("Rodando o Backend!!", port)
